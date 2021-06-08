@@ -11,6 +11,7 @@ li {
   font-family: "Raleway", sans-serif;
 }
 
+/* MENU STYLING MOBIL */
 #menu {
   list-style-type: none;
   text-align: center;
@@ -19,6 +20,7 @@ li {
 
 nav ul li a {
   color: white;
+  text-decoration: none;
 }
 
 li {
@@ -36,6 +38,13 @@ nav {
   margin: 0.6rem;
 }
 
+nav div {
+  color: white;
+  margin: 1rem;
+  font-family: "Raleway", sans-serif;
+}
+
+/* BURGERMENU */
 .hidden {
   /* display:none;*/
   /*transform:scale(0);*/
@@ -65,4 +74,6 @@ nav {
   #menu li {
     display: inline;
   }
+
+  /*BURGERMENU SLUT*/
 }
