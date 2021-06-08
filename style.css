@@ -11,11 +11,19 @@ li {
   font-family: "Raleway", sans-serif;
 }
 
+body {
+  background-image: url(img/marble.texture.nerfpng.png);
+}
+
 /* MENU STYLING MOBIL */
 #menu {
   list-style-type: none;
   text-align: center;
   padding: 0;
+}
+
+header {
+  overflow: auto;
 }
 
 nav ul li a {
@@ -40,13 +48,14 @@ nav {
 
 nav div {
   color: white;
-  margin: 1rem;
+  margin: 0.8rem;
   font-family: "Raleway", sans-serif;
+  font-size: 2rem;
 }
 
 /* BURGERMENU */
 .hidden {
-  /* display:none;*/
+  display: none;
   /*transform:scale(0);*/
   transform: translateX(-100%);
   opacity: 0;
