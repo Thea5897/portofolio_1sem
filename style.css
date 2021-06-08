@@ -1,0 +1,68 @@
+h1,
+h2 {
+  font-family: "Vidaloka", serif;
+}
+
+h3,
+h4,
+p,
+a,
+li {
+  font-family: "Raleway", sans-serif;
+}
+
+#menu {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+}
+
+li {
+  margin: 1rem;
+}
+
+nav {
+  background-color: #c5bcae;
+}
+
+#insta,
+#fb {
+  max-height: 1rem;
+  display: inline;
+  margin: 0.6rem;
+}
+
+.hidden {
+  /* display:none;*/
+  /*transform:scale(0);*/
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+#menuknap {
+  display: inline-block;
+}
+
+#menu {
+  list-style-type: none;
+  transition: transform 0.3s;
+  transform-origin: top left;
+}
+
+@media only screen and (min-width: 600px) {
+  #menuknap {
+    display: none;
+  }
+  #menu.hidden {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  #menu li {
+    display: inline;
+  }
+}
