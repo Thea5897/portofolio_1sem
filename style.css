@@ -3,22 +3,31 @@
 #E1D2BE Lys beige
 #EAE8E3 Cream
 #434340 Mørk grå 
-
 */
+
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+
 hr {
   color: #c5bcae;
   opacity: 0.5;
 }
 
-section div img {
+#first_section div img {
   object-fit: contain;
-  height: 400px;
+  height: 50vw;
   width: auto;
 }
 
+.splash_col {
+  display: flex;
+  flex-flow: wrap-reverse;
+  gap: 2rem;
+  justify-content: space-evenly;
+}
+
 #splash_img1 {
-  width: 330px;
-  grid-column: 1/-1;
   margin: 0;
 }
 
@@ -36,56 +45,47 @@ section div img {
   grid-area: 1/2;
   text-align: center;
 }
-#first_section {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-
-  /* display: flex;
-  flex-flow: wrap; */
-  box-sizing: border-box;
-  margin-left: 0.8rem;
-  margin-right: 0.8rem;
-  margin-top: 1rem;
-}
-
 .text1 {
-  grid-column: span 2;
+  font-size: 1.5rem;
+  margin: 0;
 }
 
-#splash_img3,
-#splash_img2 {
+#third_section {
 }
 
-/*
-#first_section {
-  display: grid;
-  overflow: hidden;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+/* FORM */
+
+#kontakt_form {
+  width: 360px;
 }
 
-#splash.img1 {
-  grid-area: 1/1;
-  box-sizing: border-box;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5vw;
+  text-align: center;
+  background-color: #c5bcae;
+  margin: 15px;
+}
+button {
+  background-color: #434340;
+  margin-left: 6.8rem;
+  border-style: none;
+  max-width: 12em;
+  font-family: "Raleway", sans-serif;
+  color: #eae8e3;
 }
 
-#splash.img2 {
-  grid-area: 1/2;
-  box-sizing: border-box;
+form div h2 {
+  color: white;
 }
 
-#splash.img3 {
-  box-sizing: border-box;
-  grid-area: 2/1;
-}
+label {
+  font-family: "Raleway", sans-serif;
+  color: #434340;
 
-#splash.img4 {
-  grid-area: 2/2;
-  box-sizing: border-box;
+  justify-content: center;
 }
-*/
-
 h3,
 h4,
 p,
@@ -114,12 +114,22 @@ nav ul li a {
   text-decoration: none;
 }
 
-li {
-  margin: 1rem;
+header nav ul li {
+  margin: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+ul {
+  padding-left: 0px;
 }
 
 nav {
   background-color: #c5bcae;
+  position: sticky;
 }
 
 #insta,
