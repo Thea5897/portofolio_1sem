@@ -5,6 +5,7 @@
 #434340 Mørk grå 
 */
 
+/*_---------------Overordnet styling */
 body {
   hyphens: auto;
 }
@@ -22,6 +23,27 @@ p {
   line-height: 1.5rem;
 }
 
+a {
+  cursor: pointer;
+}
+
+h3,
+h4,
+p,
+a,
+li {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-image: url(img/marble.texture.nerfpng.png);
+}
+
+img {
+  filter: brightness(1.2);
+}
+
+/*--------------------------------------- INDEX.HTML */
 /*FIRST SECTION INDEX*/
 
 #first_section div img {
@@ -30,7 +52,6 @@ p {
   width: auto;
   filter: brightness(1.2);
 }
-
 .splash_col {
   display: flex;
   flex-flow: wrap-reverse;
@@ -41,7 +62,6 @@ p {
 #splash_img1 {
   margin: 0;
 }
-
 #first_section h2 {
   font-family: "Vidaloka", serif;
   color: #434340;
@@ -101,7 +121,6 @@ section nav ul li {
 }
 
 /* FORM */
-
 #kontakt_form {
   width: 360px;
 }
@@ -132,17 +151,48 @@ label {
 
   justify-content: center;
 }
-h3,
-h4,
-p,
-a,
-li {
-  font-family: "Raleway", sans-serif;
+
+/*--------------------------------------- INDEX.HTML SLUT */
+
+/*--------------------------------------- KOMPETENCER */
+#second_section_komp_col {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
 }
 
-body {
-  background-image: url(img/marble.texture.nerfpng.png);
+.komp {
+  background-color: #faf8f4c5;
+  border: 0.5px solid #c5bcae;
+  margin: 4px;
+  display: inline-block;
+  width: 27vw;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 0.75rem;
 }
+
+#third_section_komp {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#second_section_komp h3 {
+  color: #434340;
+  text-align: center;
+}
+
+.projekter_her {
+  color: #434340;
+  text-decoration: none;
+}
+/*--------------------------------------- KOMPETENCER SLUT*/
+
+/*--------------------------------------- PROJEKTER */
+
+/*--------------------------------------- PROJEKTER SLUT*/
 
 /* MENU STYLING MOBIL */
 #menu {
