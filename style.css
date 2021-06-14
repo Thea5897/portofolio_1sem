@@ -224,6 +224,14 @@ label {
   opacity: 0.95;
 }
 
+.responsive_v2_img a img:hover,
+.indhold_img2 a img:hover,
+.indhold_img1 a img:hover,
+.animation_img a img:hover,
+.grund_ux_img a img:hover {
+  opacity: 0.3;
+}
+
 /*--------------------------------------- PROJEKTER SLUT*/
 
 /* MENU STYLING MOBIL */
