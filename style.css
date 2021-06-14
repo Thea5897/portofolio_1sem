@@ -37,6 +37,9 @@ li {
 
 body {
   background-image: url(img/marble.texture.nerfpng.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 img {
@@ -189,6 +192,38 @@ label {
 
 /*--------------------------------------- PROJEKTER */
 
+.first_section_pro,
+.second_section_pro,
+.third_section_pro,
+.fourth_section_pro {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: column;
+  margin: 5px;
+}
+
+.grund_ux1,
+.grund_ux2,
+.responsive_v2,
+.animation,
+.grund_indhold1,
+.grund_indhold2 {
+  text-align: left;
+  background-color: #eae8e3;
+  background-color: rgba(248, 246, 241, 0.699);
+  padding: 5px;
+}
+
+.responsive_v2_img a img,
+.indhold_img2 a img,
+.indhold_img1 a img,
+.animation_img a img,
+.grund_ux_img a img {
+  width: 20rem;
+  opacity: 0.95;
+}
+
 /*--------------------------------------- PROJEKTER SLUT*/
 
 /* MENU STYLING MOBIL */
@@ -255,7 +290,6 @@ nav div {
 
 @media only screen and (min-width: 460px) {
   #first_section {
-    margin-left: 20px;
     gap: 10px;
   }
 }
