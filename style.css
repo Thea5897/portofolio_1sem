@@ -27,6 +27,11 @@ p {
 a {
   cursor: pointer;
   text-decoration: none;
+  color: #434340;
+}
+
+a:hover {
+  color: white;
 }
 
 h3,
